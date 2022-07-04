@@ -172,7 +172,9 @@ here when we are modifying object, we are not directly changing it. We first cop
 
 # Steps
 
-<img src="./images/steps.png" />
+- Design the store
+- Define the actions
+- create reducer
 
 # Actions
 
@@ -185,3 +187,33 @@ To change something in the state, you need to dispatch an action. An action is a
 ```
 
 #### Note: if you don't have any property called type then redux will complain
+
+<br><br>
+
+# Unit Test Redux
+
+A unit can be a single or multiple objects.\
+We should test the behaviour not the implementation.
+<br>
+
+## Solitary Tests
+
+<img src="./images/solitary-lonely-test.png" width="400" />
+
+- Coupled to implementaion
+- Break often
+- Slow us down
+- Not reliable
+
+The problem is not unit testing it self.
+It's how you practice it.
+<br>
+
+## Social Tests
+
+<img src="./images/social-tests.png" width="400" />
+
+- Less fragile
+- Cheaper to write
+- Cheaper to maintain
+- More reliable
