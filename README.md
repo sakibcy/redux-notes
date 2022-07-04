@@ -194,6 +194,10 @@ To change something in the state, you need to dispatch an action. An action is a
 
 A unit can be a single or multiple objects.\
 We should test the behaviour not the implementation.
+
+- Watch the Coverage report to see how much of the code has unit tests.
+- [Arrange-Act-Assert: A Pattern for Writing Good Tests](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+
 <br>
 
 ## Solitary Tests
@@ -217,3 +221,6 @@ It's how you practice it.
 - Cheaper to write
 - Cheaper to maintain
 - More reliable
+
+In unit test we should not call the extarnal resources like APIs.\
+We should mock those steps.
